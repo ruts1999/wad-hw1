@@ -1,14 +1,17 @@
 body {
-
-    text-align: center;
+    font-family: 'B612', sans-serif;
 }
 
-#foto_location {
-    padding: 11%;
+#photo_location {
+    padding-left: 15%;
+    padding-top: 8%;
+
 }
 
-#footer_none {
+ol > li{
     list-style-type: none;
+    text-align: center;
+
 }
 
 .topnav {
@@ -29,6 +32,32 @@ body {
     font-weight: bold;
     font-size: 19px;
     text-decoration: none;
-    font-family: 'B612', sans-serif;
+}
 
+footer {
+    padding-top: 8%;
+}
+
+.button{
+    display:inline-block;
+    width: 70px;
+    height: 30px;
+    padding-top: 5px;
+    -webkit-appearance: button;
+    text-decoration: none;
+    background-color: #e0df79;
+}
+
+.wrapper{
+    float:right;
+    text-align:center;
+}
+
+.center_text {
+    text-align: center;
+}
+
+
+#tabel_left {
+    padding-left: 14%;
 }
